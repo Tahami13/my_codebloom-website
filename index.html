@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Bloom | Learn to Code Creatively</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #1D3557;
+    }
+
+    header {
+      background-image: url('banner.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 60px 20px;
+      position: relative;
+      height: 250px;
+    }
+
+    .logo-container {
+      position: absolute;
+      top: 5px;
+      left: 10px;
+      display: flex;
+      text-align: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+.tagline {
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-top: 80px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+    .logo-container h1 {
+     margin: 0;
+      font-size: 1.3em;
+      color: white;
+       font-weight: bold;
+    }
+
+    nav {
+      background-color: #1D3557;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #9D4EDD;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .hero button {
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #FFD166;
+      color: #1D3557;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h3 {
+      color: #0615c3;
+     
+      font-weight: bold;
+    }
+.section p{
+    font-weight: bold;
+    
+}
+    .courses {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .course-box {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 250px;
+    }
+
+    .course-box h4 {
+      color: #9D4EDD;
+    }
+
+    .footer {
+      background-color: #1D3557;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .footer a {
+      color: #FFD166;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .courses {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h4, .card h6 {
+  transition: color 0.3s ease;
+}
+
+.card:hover h4,
+.card:hover h6 {
+  color: #0d6efd;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Top Right Logo and Brand -->
+    <div class="logo-container">
+      <img src="logo.png" alt="Code Bloom Logo" />
+      <h1>Code Bloom</h1>
+      
+    </div>
+   
+    <p class="tagline">Where Coding Meets Creativity — And Futures Begin</p>
+  
+  </header>
+  
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#demo">Free Demo</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Book Your Free Coding Demo Today!</h2>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" target="_blank">
+      <button>Book Now</button>
+    </a>
+  </section>
+
+  <section class="section" id="about">
+    <h3 style="font-weight: bolder;font-size: 1.5em;">🌟 About Code Bloom🌟</h3>
+  <p>
+    Welcome to <strong>Code Bloom</strong> — where curious minds blossom into confident creators! 🌱💻<br><br>
+    We believe coding isn’t just about syntax and semicolons — it’s an adventure, a creative playground, and a powerful tool to shape the future. Whether you're a tiny techie taking your first steps or a teen genius ready to launch their big idea, we’re here to light that spark! 🔥✨<br><br>
+    At Code Bloom, learning is never boring. From magical animations to interactive projects, we turn lessons into experiences and learners into innovators. 🚀🎨<br><br>
+    🌈 <em>Learn to Code. Grow Creatively. Thrive Technologically.</em>  
+  </p>
+  <blockquote style="text-align: center; font-style: italic; color: #444;">
+  “Every line of code you write plants a seed of creativity. Let’s grow a garden of possibilities.”
+</blockquote>
+
+  </section>
+
+  <!-- Popular Courses Section -->
+<!-- Popular Courses Section -->
+<!-- Course Section Start -->
+<section class="py-5" style="background-color: #f3f4f6;" id="courses">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 " style="color: #0615c3; font-size: 1.5em;">Our Popular Courses</h2>
+
+    <!-- Main Courses -->
+    <div class="row g-4 mb-5">
+      <!-- Beginner -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="kidss.jpg" class="card-img-top" alt="Beginner Course" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Beginner Level</h5>
+            <p class="card-text">Ideal for kids aged 7–14. Starts with block-based coding, transitioning to HTML, CSS, JavaScript, and Python. Fun, engaging, and foundational!</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank"  class="btn btn-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Advanced -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="advance level.jpg" class="card-img-top" alt="Advanced Course" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Advanced Level</h5>
+            <p class="card-text">Perfect for ages 13–15. Builds on core logic with HTML, CSS, Python, and introduces cloud computing concepts in a fun way.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" class="btn btn-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="professional image.jpg" class="card-img-top" alt="Professional Course" style="height: 250px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Professional Level</h5>
+            <p class="card-text">Tailored for 16+. Dive deep into Python, AI & ML, Cloud Computing, and IoT. Real-world skills for future-ready learners.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank"  class="btn btn-primary w-100">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Specialised Courses -->
+    <h3 class="text-center fw-bold mb-4" style="color: #0615c3; font-size: 1.5em;">Specialised Courses</h3>
+      <!-- Specialised Courses -->
+
+
+    <div class="row g-4">
+      <!-- Python -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="python.jpg" class="card-img-top" alt="Python" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Python Programming</h5>
+            <p class="card-text">Future Scope: AI, Data Science<br>Certification: Provided</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header"  target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cloud Computing -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="cloud.jpg" class="card-img-top" alt="Cloud" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Cloud Computing</h5>
+            <p class="card-text">Future Scope: Cloud Architect, DevOps<br>Certification: Provided</p>
+             <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank"  class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Science -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="Data science.jpg" class="card-img-top" alt="Data Science" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Data Science</h5>
+            <p class="card-text ">Future Scope: Analyst, Researcher<br>Certification: Provided</p>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header"  target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Java -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="java.jpg" class="card-img-top" alt="Java" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Java Programming</h5>
+            <p class="card-text ">Future Scope: Android Dev, Backend<br>Certification: Provided</p>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header"  target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- React.js -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="React_js.jpg" class="card-img-top" alt="React.js" style="height: 150px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">React.js</h5>
+            <p class="card-text ">Future Scope: Web App Dev<br>Certification: Provided</p>
+             <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="js.jpg" class="card-img-top" alt="JS" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">JavaScript</h5>
+            <p class="card-text">Future Scope: Frontend Dev<br>Certification: Provided</p>
+             <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cyber Security -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="cybersecurity.jpg" class="card-img-top" alt="Cyber Security" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">Cyber Security</h5>
+            <p class="card-text">Future Scope: Ethical Hacker<br>Certification: Provided</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI & ML -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="Ai.jpg" class="card-img-top" alt="AI ML" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">AI & ML with Python</h5>
+            <p class="card-text">Future Scope: ML Engineer, AI Research<br>Certification: Provided</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- App & Game Dev -->
+      <div class="col-md-3">
+        <div class="card h-70 shadow-sm border-0">
+          <img src="aappp.jpg" class="card-img-top" alt="App Dev" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold" style="color: #4f06c3; font-size: 1.4em;">App & Game Development</h5>
+            <p class="card-text">Future Scope: Game Dev, Mobile Apps<br>Certification: Provided</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" class="btn btn-success center w-50">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </section>
+<!-- Course Section End -->
+
+
+
+  <section class="section "  id="demo" style="background-color: #9d4afb;">
+    <h3 class="text-center fw-bold  " style="color: #ececef; font-size: 1.5em;">Book a Free Demo</h3>
+    <p>Click below to fill out the form and schedule a session with us.</p>
+    
+     <a href="https://docs.google.com/forms/d/e/1FAIpQLScweSZrWtgl4P6jHUgDKKOFwaylpiC7q-j8aCIbwJVNfXNQNw/viewform?usp=header" target="_blank" class="btn btn-warning center w-40">Get Started</a>
+   
+  </section>
+
+  <section class="section"  id="contact" style="background-color: #9d4afb;">
+    <h3 class="text-center fw-bold mb-5 " style="color: #f0f1f8; font-size: 1.5em;">Contact Us</h3>
+    <p>Email: <a href="mailto:enrolldemo_1@codebloomapp.com" style="color: #f0f1f8; font-size: 1em;">enrolldemo_1@codebloomapp.com</a><br>
+       WhatsApp: <a href="https://wa.me/917569765474" style="color: #f0f1f8; font-size: 1em;" target="_blank">+91-7569765474</a></p>
+  </section>
+
+  <div class="footer">
+    <p>&copy; 2025 Code Bloom</p>
+  </div>
+
+</body>
+</html>
