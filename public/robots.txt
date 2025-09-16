@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://learn.codebloomapp.com/sitemap.xml
+Sitemap: https://learn.codebloomapp.com/sitemap-main.xml
+Sitemap: https://learn.codebloomapp.com/video-sitemap.xml

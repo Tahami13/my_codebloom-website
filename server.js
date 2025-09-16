@@ -2,10 +2,15 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const { minify } = require('html-minifier');
-const UglifyJS = require('uglify-js');
 
 const app = express();
 const PORT = 3002;
+
+// ✅ Force allow indexing for all pages
+app.use((req, res, next) => {
+  res.setHeader("X-Robots-Tag", "index, follow");
+  next();
+});
 
 // Minify HTML before serving
 app.get('/', (req, res) => {
