@@ -4,7 +4,7 @@ const fs = require('fs');
 const { minify } = require('html-minifier');
 
 const app = express();
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 
 // ✅ Force allow indexing for all pages
 app.use((req, res, next) => {
@@ -28,5 +28,5 @@ app.get('/', (req, res) => {
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(PORT, () => {
-  console.log(`Site running at http://localhost:${PORT}`);
+  console.log(`Site running on port ${PORT}`);
 });
