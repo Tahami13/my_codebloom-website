@@ -27,6 +27,6 @@ app.get('/', (req, res) => {
 // Serve static files (CSS, JS, images)
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0', () => {
   console.log(`Site running on port ${PORT}`);
 });
